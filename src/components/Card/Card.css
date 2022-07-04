@@ -1,0 +1,36 @@
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+  padding: 1rem;
+  min-width: 0;
+}
+
+.card--image {
+  height: auto;
+  max-width: 330px;
+  border-radius: 10px;
+}
+
+.card--info {
+  padding: 1rem;
+  max-width: 330px;
+}
+
+.card--location {
+  min-width: fit-content;
+}
+
+.card--location * {
+margin-right: 15px;
+}
+
+
+.card--info img {
+  height: 14px;
+  fill: red;
+}
+ .card--info a {
+  color: grey;
+ }

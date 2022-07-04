@@ -1,0 +1,21 @@
+.nav-bar {
+  background-color: coral;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.nav-bar * {
+  margin: 5px
+}
+
+.nav-bar h1 {
+  color: white;
+}
+
+.nav-bar img {
+  width: 50px;
+  height: 50px;
+}
